@@ -9,6 +9,11 @@ body {
     overflow-x: hidden;
 }
 
+#screan {
+    width: 1366px;
+    margin: 0 auto;
+}
+
 body {
     background: url(../slike/bg.jpg) no-repeat center;
     background-size: contain;
@@ -172,4 +177,14 @@ div#slider figure {
     text-align: left;
     font-size: 0;
     animation: 30s slidy infinite;
+}
+
+@viewport {
+    zoom: 1.0;
+    width: extend-to-zoom;
+}
+
+@-ms-viewport {
+    zoom: 1.0;
+    width: extend-to-zoom;
 }

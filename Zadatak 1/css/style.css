@@ -1,50 +1,8 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-#navbar{
-    height: 50px;
-    width: 100%;
-    background-color: lightgreen;
-}
-#logo{
-    width: 20%;
-    height: 100%;
-    background-color: #3a569c;
-    float: left;
-}
-#logo img{
-    height:30px;
-    width: 50px;
-    padding: 10px;
-}
-#navtraka{
-    height: 100%;
-    background-color: red;
-    width: 80%;
-    float: right;
-}
-#navtraka li{
-    display: inline-block;
-    padding: 16px;
-    margin:0 -1px;
-    transition: 0.5s;
-}
-#navtraka li:hover{
-    background-color: lightblue;
-}
-#centar{
-    background-color: greenyellow;
-    height: 85%;
-    width: 80%;
-    margin:0 10%;
-    position: absolute;
-}
-#footer{
-    height: 6%;
-    width: 100%;
-    position: absolute;
-    bottom: 0px;
-    text-align: center;
-    background-color: royalblue;
+
+body {
+    background-image: url(../slike/site-bg.png);
 }

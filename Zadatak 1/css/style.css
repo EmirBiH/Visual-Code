@@ -9,7 +9,7 @@ body {
 }
 
 #screan {
-    width: 1366px;
+    width: 1280px;
     margin: 0 auto;
 }
 
@@ -99,7 +99,7 @@ body {
 }
 
 .min {
-    width: 30%;
+    width: 32%;
     display: inline-block;
     margin-top: 10%;
 }
@@ -177,14 +177,4 @@ div#slider figure {
     text-align: left;
     font-size: 0;
     animation: 30s slidy infinite;
-}
-
-@viewport {
-    zoom: 1.0;
-    width: extend-to-zoom;
-}
-
-@-ms-viewport {
-    zoom: 1.0;
-    width: extend-to-zoom;
 }

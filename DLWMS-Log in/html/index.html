@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>DLWMS</title>
+    <meta charset="UTF-8" />
+    <link href="../css/style.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+        <div id="header">
+            <img src="../slike/logo.png" alt="Logo">
+        </div>
+        <!--end of header-->
+        <div id="content">
+            <div id="left" class="box">
+                <p><b>Studentski online servis</b></p>
+
+                <p>Unesite broj dosijea i lozinku za prijavu na sistem.</p>
+
+                <p>U slučaju problema sa prijavom molimo kontaktirajte <a href="#">tehničku podršku.</a></p>
+            </div>
+
+            <!--end of left-content-->
+            <div id="right" class="box">
+                <form action="#" method="POST">
+                    <label for="index">Broj dosijea</label><br/>
+                    <input type="text" name="id" id="index" class="inp" /><br/>
+                    <label for="pass">Lozinka</label><br/>
+                    <input type="password" name="pasword" id="pass" class="inp" /><br/>
+                    <label for="studij">Studij</label>
+                    <select class="inp">
+                    <option value="fit" >Fakultet informacijskih tehnologija</option>
+                    <option value="fitpost">FIT(postdiplomski studij)</option>
+                    <option value="fnh">FNH</option>
+                    <option value="demo">DEMO</option>
+                    <option value="pi">Poslovna informatika</option>
+                </select>
+                    <input type="checkbox" name="zapamti">
+                    <label for="zapmti">Zapamti me</label>
+                    <input type="submit" value="Prijava" class="gumb">
+                </form>
+                <a href="#">Zaboravio/la sam lozinku</a>
+            </div>
+            <!--end of rifht-contetn-->
+        </div>
+        <!--end of content-->
+        <div id="footer">
+            <p class="fit">FIT DLWMS</p>
+            <hr/>
+            <p class="copy">Copyright © 2011-2012, Fakultet informacijskih tehnologija ukoliko nije drugačije označeno. Sva prava pridržana.</p>
+        </div>
+        <!--end of footer-->
+    </div>
+    <!--end of container-->
+</body>
+
+</html>

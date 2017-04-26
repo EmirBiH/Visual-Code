@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+    height: 600px;
+    width: 350px;
+    background-color: #FFF;
+    box-shadow: 1px 1px 3px grey;
+    margin: 5px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+#heder {
+    height: 5%;
+    box-sizing: border-box;
+}
+
+#naslov {
+    width: 85%;
+    height: 100%;
+    float: left;
+    color: purple;
+}
+
+#naslov p {
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 7px 0 0 8px;
+}
+
+#naslov img {
+    float: left;
+    padding: 7px 0 0 10px;
+}
+
+#share {
+    width: 15%;
+    height: 100%;
+    float: left;
+}
+
+#share p {
+    float: left;
+    padding: 6px 0 0 10px;
+}
+
+#share img {
+    float: left;
+    padding-top: 5px;
+}
+
+#naziv {
+    font-size: 0.75em;
+    display: block;
+    font-weight: bold;
+}
+
+#content {
+    height: 90%;
+}
+
+#footer {
+    height: 5%;
+}
+
+#slika {
+    width: 100%;
+    height: 50%;
+}
+
+#slika img {
+    height: 100%;
+    width: 100%;
+}
+
+#text {
+    height: 50%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#text p {
+    padding: 10px;
+    text-align: left;
+    font-size: 2em;
+}
+
+.textgray {
+    color: gray;
+}
+
+#vrijeme {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+#comment p {
+    display: inline-block;
+    padding-right: 10px;
+}
+
+#comment img {
+    float: left;
+    padding-right: 10px;
+    padding-top: 1px;
+}
+
+#comment {
+    float: right;
+}

@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+.box {
+    margin: 20px auto;
+    width: 95%;
+    height: 600px;
+}
+
+.heder {
+    height: 10%;
+}
+
+.heder h1 {
+    font-weight: normal;
+}
+
+.sredina {
+    height: 90%;
+    border-top: 1px solid gray;
+}
+
+.tekst {
+    height: 20%;
+}
+
+.slike {
+    height: 80%;
+    width: 100%;
+}
+
+.osoba {
+    height: 100%;
+    width: 24%;
+    float: left;
+    margin-left: 10px;
+}
+
+.padd-left {
+    padding-left: 5px;
+}
+
+.mar-right {
+    margin-right: 5px;
+}
+
+.osoba img {
+    width: 100%;
+    filter: grayscale(60%);
+}
+
+.osoba h2 {
+    font-weight: normal;
+}
+
+.osoba a {
+    display: block;
+    height: 30px;
+    background-color: lightgray;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.nesta {
+    color: gray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+.box h1 {
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+.box {
+    width: 95%;
+    margin: 20px auto;
+    height: 600px;
+}
+
+.contact {
+    height: 90%;
+    border-top: 1px solid gray;
+}
+
+input {
+    height: 40px;
+    margin-top: 20px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid gray;
+    border-radius: 3px;
+    font-size: 20px;
+    padding-left: 5px;
+}
+
+button {
+    margin-top: 50px;
+    width: 150px;
+    height: 30px;
+    border: none;
+    background-color: black;
+    color: white;
+}

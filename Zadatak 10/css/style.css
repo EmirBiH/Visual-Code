@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    width: 450px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.slika {
+    height: 100%;
+    width: 15%;
+    float: left;
+}
+
+.slika img {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.nesta * {
+    float: left;
+    width: 74%;
+    padding: 10px 0;
+}
+
+.unos {
+    margin-top: 20px;
+    padding-left: 20px;
+    width: 250px;
+    background-color: #eee;
+    border-radius: 5px;
+    border: none;
+}
+
+.buton {
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 5px;
+    width: 100px;
+    background-color: dodgerblue;
+    border: none;
+    color: white;
+}

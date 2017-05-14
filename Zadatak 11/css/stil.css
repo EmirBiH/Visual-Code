@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif; 
+    box-sizing: border-box;
+}
+.box{
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+}
+.nesta{
+    display: inline-block;
+    margin: 10px;
+    width: 31%;
+    border: 1px solid black;
+    text-align: center;   
+}
+.nesta h2{
+    padding:20px 0; 
+    font-weight: normal;
+}
+.nesta p{
+    padding: 10px 0;
+}
+.nesta img {
+    width: 50%;
+}
+.bot{
+    margin-bottom:100px; 
+}

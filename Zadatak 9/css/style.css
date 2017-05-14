@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    width: 1200px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.left {
+    width: 15%;
+    float: left;
+}
+
+.left img {
+    float: right;
+}
+
+.box a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding: 8px 40px 8px 60px;
+    border-radius: 10px;
+    margin-left: 20px;
+    color: white;
+}
+
+#fb {
+    background: url('../slike/fb.png') no-repeat 15px center #3577e0;
+}
+
+#google {
+    background: url('../slike/google.png') no-repeat 20px center #ff2626;
+}
+
+#twiter {
+    background: url('../slike/twitter.png') no-repeat 20px center #36bad8;
+}
+
+#pin {
+    background: url('../slike/pinterest.png') no-repeat 20px center #cc0000;
+}

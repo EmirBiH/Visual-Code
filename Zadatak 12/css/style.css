@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+.box {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.heder {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.heder * {
+    padding: 15px 0;
+}
+
+.floatleft {
+    float: left;
+}
+
+.floatright {
+    float: right;
+}
+
+.temp {
+    text-align: center;
+    border: 1px solid lightgray;
+    width: 49%;
+}
+
+.temp ul {
+    list-style-type: none;
+}
+
+.temp ul li {
+    padding: 20px;
+    border-bottom: 1px solid gray;
+}
+
+.temp ul li:nth-child(1) {
+    color: white;
+    font-size: 1.3em;
+}
+
+.temp ul li:nth-child(6) {
+    color: gray;
+    font-size: 1.3em;
+    padding: 15px;
+}
+
+.temp ul li:nth-child(7) a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 5px 40px;
+    background: url("../slike/download.png") no-repeat 15px center #000;
+}
+
+.temp ul li:nth-child(7) {
+    background-color: #dfdfdf;
+}
+
+.basicBG {
+    background-color: gray;
+}
+
+.premiumBG {
+    background-color: red;
+}

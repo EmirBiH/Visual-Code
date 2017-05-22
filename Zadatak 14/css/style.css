@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.ekran {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+nav {
+    background-color: rgba(132, 255, 150, 0.3);
+}
+
+nav ul li {
+    display: inline-block;
+    font-size: 23px;
+    transition: 600ms;
+}
+
+nav img {
+    width: 150px;
+    padding-left: 20px;
+    float: left;
+}
+
+nav a {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: gray;
+}
+
+nav ul li:hover {
+    background-color: rgba(110, 216, 126, 0.4);
+}
+
+nav ul {
+    padding-left: 50px;
+    display: inline;
+}
+
+.block {
+    width: 100%;
+    height: 600px;
+}
+
+.pocetna {
+    background-image: url("../slike/pocetna.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: blur(3px);
+    position: relative;
+    height: 100%;
+}
+
+#naziv {
+    font-size: 60px;
+    text-align: center;
+    top: 250px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    color: white;
+}
+
+.galerija img {
+    width: 395px;
+}
+
+.naslovi {
+    background-color: rgba(132, 255, 150, 0.3);
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 30px;
+}
+
+.pomjeri {
+    margin-top: 90px;
+}
+
+.pomjeri2 {
+    margin-top: 25px;
+}
+
+.lijevoNesta {
+    text-align: center;
+    width: 30%;
+    background-color: #91b7ff;
+    color: white;
+    float: left;
+    margin: 10px;
+}
+
+.desnoNesta {
+    float: left;
+    width: 60%;
+    height: 100%;
+    margin: 10px;
+}
+
+.lijevoNaslov {
+    font-weight: bold;
+    font-size: 23px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.trener {
+    height: 50%;
+    width: 40%;
+    background-color: #dfdfdf;
+    float: left;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+
+.trener p {
+    text-align: center;
+    font-size: 23px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.trener img {
+    width: 150px;
+    margin-left: 75px;
+}
+
+.trener a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    background-color: #cfcfcf;
+    width: 100%;
+    text-align: center;
+    color: black;
+    transition: 500ms;
+}
+
+.trener a:hover {
+    background-color: #3f3f3f;
+    color: white;
+}
+
+.kontakt {
+    height: 80%;
+}
+
+.lijevo {
+    text-align: center;
+    float: left;
+    width: 50%;
+    height: 100%;
+    margin-top: 20px;
+    background-color: #d6d6d6;
+}
+
+.lijevo p {
+    padding: 20px;
+    font-size: 1.5em;
+}
+
+.radno {
+    padding: 10px 20px 10px 20px;
+}
+
+.desno {
+    float: left;
+    width: 50%;
+    margin-top: 20px;
+}
+
+.lijevo ul li {
+    list-style-type: none;
+    font-size: 18px;
+}
+
+.lijevo a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 10px;
+    background-color: #9f9f9f;
+    transition: 500ms;
+}
+
+.lijevo a:hover {
+    background-color: #3f3f3f;
+    color: white;
+}
